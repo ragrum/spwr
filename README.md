@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Make sure you have Node `v16.14.0+` installed.
 2. Clone this repository.
-3. Install dependencies `npm install`.
+3. Install dependencies `npm install`. *Do not use Yarn 2!*
 
 ## Available Scripts
 
