@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tech Stack
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [TailwindCSS](https://tailwindcss.com/)
+
 ## Initial Setup
 
 1. Make sure you have Node `v16.14.0+` installed.
