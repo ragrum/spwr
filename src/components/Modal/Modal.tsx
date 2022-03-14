@@ -13,13 +13,21 @@ function Modal({ isOpen, close }: Props) {
       isOpen={isOpen}
       onDismiss={close}
       aria-label="Learn more about SPWR"
-      className="p-0"
+      className="w-[75vw] md:w-[25vw] my-24 p-4 rounded bg-gray-500 text-white"
     >
-      <button className="cursor-default" onClick={close}>
-        <VisuallyHidden>Close</VisuallyHidden>
-        <span aria-hidden>×</span>
-      </button>
-      <p>Hello there. I am a dialog</p>
+      <div className="flex justify-between font-bold text-2xl mb-4 pb-2 border-b-2 border-b-white">
+        <span className="self-center text-xl">Let the sunshine</span>
+        <button className="self-center cursor-default text-2xl" onClick={close}>
+          <VisuallyHidden>Close</VisuallyHidden>
+          <span aria-hidden>×</span>
+        </button>
+      </div>
+
+      <p>
+        SPWR Corporation is a public company headquartered in San Jose,
+        California. It sells, installs, and finances solar power products, such
+        as panels, batteries, mounting hardware, and monitoring software.
+      </p>
     </Dialog>
   );
 }
