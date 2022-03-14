@@ -25,7 +25,7 @@ function App() {
           Learn more about SPWR
         </button>
 
-        <Modal isOpen={showModal} close={close} />
+        <Modal isOpen={!showModal} close={close} />
       </header>
     </div>
   );
