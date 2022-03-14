@@ -1,21 +1,26 @@
 import React from 'react';
 import { Dialog } from '@reach/dialog';
+import VisuallyHidden from '@reach/visually-hidden';
 
 import '@reach/dialog/styles.css';
 
 interface Props {
   isOpen: boolean;
-  onDismiss: () => void;
+  close: () => void;
 }
 
-function Modal({ isOpen, onDismiss }: Props) {
+function Modal({ isOpen, close }: Props) {
   return (
     <Dialog
       isOpen={isOpen}
-      onDismiss={onDismiss}
+      onDismiss={close}
       aria-label="Learn more about SPWR"
     >
-      <p>Some Content</p>
+      <button className="cursor-default" onClick={close}>
+        <VisuallyHidden>Close</VisuallyHidden>
+        <span aria-hidden>×</span>
+      </button>
+      <p>Hello there. I am a dialog</p>
     </Dialog>
   );
 }
