@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import sun from './sun.svg';
 
 function App() {
   return (
     <div className="text-center">
       <header className="App-header bg-gray-800 text-white min-h-screen flex flex-col items-center justify-center">
-        <img src={logo} className="h-[40vmin] pointer-events-none motion-safe:animate-[spin_20s_linear_infinite]" alt="logo" />
+        <img src={sun} className="h-[40vmin] pointer-events-none motion-safe:animate-[spin_20s_linear_infinite]" alt="sun" />
         <p>
           Edit <code className="font-mono">src/App.tsx</code> and save to reload.
         </p>
