@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
-- [Redux](https://redux.js.org/)
+- [ReachUI](https://reach.tech/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [TailwindCSS](https://tailwindcss.com/)
 
