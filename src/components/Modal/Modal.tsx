@@ -2,8 +2,6 @@ import React from 'react';
 import { Dialog } from '@reach/dialog';
 import VisuallyHidden from '@reach/visually-hidden';
 
-import '@reach/dialog/styles.css';
-
 interface Props {
   isOpen: boolean;
   close: () => void;
@@ -15,6 +13,7 @@ function Modal({ isOpen, close }: Props) {
       isOpen={isOpen}
       onDismiss={close}
       aria-label="Learn more about SPWR"
+      className="p-0"
     >
       <button className="cursor-default" onClick={close}>
         <VisuallyHidden>Close</VisuallyHidden>
